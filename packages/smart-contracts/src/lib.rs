@@ -1,0 +1,10 @@
+#![no_std]
+use soroban_sdk::{contract, contractimpl, Env};
+
+#[contract]
+pub struct SignetContract;
+
+#[contractimpl]
+impl SignetContract {
+    pub fn check_auth(_env: Env) {}
+}

@@ -1,0 +1,8 @@
+{
+  "name": "react-native-demo",
+  "private": true,
+  "version": "0.1.0",
+  "dependencies": {
+    "@signet-sdk/react-native": "workspace:*"
+  }
+}

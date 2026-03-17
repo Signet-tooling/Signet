@@ -1,0 +1,20 @@
+{
+  "name": "@signet-sdk/web",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@signet-sdk/core": "workspace:*",
+    "idb": "^8.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "vitest": "^1.0.0",
+    "@vitest/browser": "^1.0.0",
+    "typescript": "^5.4.0"
+  }
+}

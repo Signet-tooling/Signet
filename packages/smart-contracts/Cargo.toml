@@ -1,0 +1,11 @@
+[package]
+name = "signet-contracts"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["."]
+
+[dependencies]
+soroban-sdk = "21.0.0"
+soroban-auth = "21.0.0"
