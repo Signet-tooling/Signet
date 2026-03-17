@@ -1,0 +1,22 @@
+name: signet_flutter
+description: Flutter platform integration for Signet SDK.
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  stellar_flutter_sdk: ^1.7.0
+  pointycastle: ^3.7.0
+  cbor: ^6.3.0
+  flutter_secure_storage: ^9.0.0
+  crypto: ^3.0.3
+  convert: ^3.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.4.4
+  build_runner: ^2.4.8
